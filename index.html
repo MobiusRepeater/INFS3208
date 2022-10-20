@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--
+        The code of header class page-home below has been adapted from examples supplied by DECO7140.
+        Specifically, this code is sourced from the Week7,Exercise example.
+        I have changed the layout and font of the banner image and text, and also changed the layout and style of the navigation bar.
+    -->
+    <header class="page-home">
+        <nav id="main-menu">
+            <ul id="navigation">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="FEF.html">FEF</a>
+                </li>
+                <li>
+                    <a href="lookaround1.html">LOOK AROUND</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT US</a>
+                </li>
+            </ul>
+            <ul id="project-name">
+                <li>SportAssistance</li>
+            </ul>
+        </nav>
+
+
+        <div id="page-header">
+            <article class="title">
+                <h2>Sport Assistance</h2>
+                <p>Committed to providing users with fitness services and guidance.</p>
+            </article>
+        </div>
+    </header>
+
+    <section class='sec'>
+        <div class="log-info">
+
+            <h2 id="log-info-title">Introduction & Log In</h2>
+
+            <div id="SA-info">
+
+                <div class="info-image">
+                        <!--                        
+                         The image (images/info-image.jpg) below has been sourced from
+                         https://www.jerseyshoreuniversitymedicalcenter.com/services/
+                        -->
+                    <li><img src="images/info-image.png" alt="info image"></li>
+                </div>
+
+                <article class="SA-text">
+                    <h3>Sport Assistance</h3>
+                    <p>Are you worried about increasing weight?<br>
+                       Do you often encounter unexpected difficulties during exercise?<br>
+                       Are you interested in outdoor fitness, but can't find the right facilities?<br>
+
+                    </p>
+                    <section class="stats">
+                        <h4>FEF(Find Exercise Facilities)</h4>
+                        <p>Find out the sports venues and facilities you want!</p>
+                        <h4>LOOK AROUND</h4>
+                        <p>Have some trouble during exercise? The helper page will provide you with the locations of drinking fountains,toliets and hospitals. </p>
+                    </section>
+                </article>
+    
+                
+            </div>
+
+            <form class="login-box">
+                <h2>
+                    Log In
+                </h2>
+
+                <input type="text" id="account-input" placeholder="ID" aria-label='account-input'>
+                <input type="text" id="password-input" placeholder="Password" aria-label='password-input'>
+                <div id="log-info"><br></div>
+                <button type="button" id="log-button" onclick="fnLogin()">log in</button>
+
+            </form>
+        
+        </div>
+        
+
+        <div class="gallery">
+            <h2 id="gallery-title">Gallery</h2>
+            <div class="gallery-content">
+
+                <div class="gallery-box">
+                    <a href="FEF.html">
+                        <!--                        
+                         The image (images/Anaerobic-Exercise.jpg) below has been sourced from
+                         https://fr.depositphotos.com/stock-photos/d%C3%A9fi-mode-de-vie-sain.html
+                        -->
+                        <img src="images/Anaerobic-Exercise.jpg">
+                        <div class="filter-name">Anaerobic Exercise</div>
+                    </a>
+                    <a href="FEF.html">
+                        <!--                        
+                         The image (images/Swimming.jpg) below has been sourced from
+                         https://weibo.com/ttarticle/p/show?id=2309404383916315276317
+                        -->
+                        <img src="images/Swimming.jpg">
+                        <div class="filter-name">Swimming</div>
+                    </a>
+                    <a href="FEF.html">
+                        <!--                        
+                         The image (images/Weight-fit.jpg) below has been sourced from
+                         http://www.wxjindianzizs.com/h-pd-80.html
+                        -->
+                        <img src="images/Weight-fit.jpg">
+                        <div class="filter-name">Weight Fit</div>
+                    </a>
+                    <a class="no_margin" href="FEF.html">
+                        <!--                        
+                         The image (images/football.jpg) below has been sourced from
+                         https://www.thepaper.cn/newsDetail_forward_4871861
+                        -->
+                        <img src="images/football.jpg">
+                        <div class="filter-name">Football</div>
+                    </a>
+                    <div class="clearfix"></div>
+                    <a href="lookaround1.html">
+                        <!--                        
+                         The image (images/drinking.jpg) below has been sourced from
+                         https://www.miw.co.uk/publicd-drinking-fountains-a-slurp-through-time/
+                        -->
+                        <img src="images/drinking.jpg">
+                        <div class="filter-name">Driking Fountain</div>
+                    </a>
+                    <a href="lookaround3.html">
+                        <!--                        
+                         The image (images/hospital.jpg) below has been sourced from
+                         https://www.mundgpsuperclinic.com.au/
+                        -->
+                        <img src="images/hospital.jpg">
+                        <div class="filter-name">Hospital</div>
+                    </a>
+                    <a href="lookaround2.html">
+                        <!--                        
+                         The image (images/toliet.jpg) below has been sourced from
+                         https://commons.wikimedia.org/wiki/File:Warrill_View,_Queensland_public_toilets.jpg
+                        -->
+                        <img src="images/toliet.jpg">
+                        <div class="filter-name">Toliet</div>
+                    </a>
+                    <a class="no_margin" href="FEF.html">
+                        <!--                        
+                         The image (images/Diving.jpg) below has been sourced from
+                         https://rajaampatbiodiversity.com/8-types-of-diving-every-diver-should-know-about/
+                        -->
+                        <img src="images/Diving.jpg">
+                        <div class="filter-name">Diving</div>
+                    </a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="footer-area">
+            <article class="footer-article">
+                Sport Assistance is a project that provides services, guidance and sports assistance for fitness enthusiasts.<br>
+                In addition to providing you with the most convenient and fastest outdoor sports facilities nearby,
+                <br>it will also provide you with any help during exercise. <br>
+                Join us, you will also get other additional services.
+            </article>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+
+</body>
